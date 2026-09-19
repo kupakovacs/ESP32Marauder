@@ -4379,9 +4379,9 @@ void WiFiScan::RunPacketMonitor(uint8_t scan_mode, uint16_t color) {
       #ifdef HAS_SCREEN
         display_obj.init();
         #ifdef HAS_CAP_TOUCH
-          display_obj.tft.setRotation(3); // Pancake: landscape-3
+          display_obj.tft.setRotation(1); // Pancake: landscape-3
         #else
-          display_obj.tft.setRotation(1);
+          display_obj.tft.setRotation(3);
         #endif
         display_obj.tft.fillScreen(TFT_BLACK);
       #endif

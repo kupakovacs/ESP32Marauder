@@ -13,7 +13,7 @@
   //#define MARAUDER_M5STICKCP2
   //#define MARAUDER_MINI
   //#define MARAUDER_V4
-  //#define MARAUDER_V6
+  #define MARAUDER_V6
   //#define MARAUDER_V6_1
   //#define MARAUDER_V7
   //#define MARAUDER_V7_1
@@ -276,18 +276,18 @@
     #define HAS_BT
     #define HAS_BT_REMOTE
     #define HAS_BUTTONS
-    #define HAS_NEOPIXEL_LED
+    //#define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
     #define HAS_SCREEN
     #define HAS_FULL_SCREEN
     #define HAS_SD
     #define USE_SD
-    #define HAS_TEMP_SENSOR
-    #define HAS_GPS
-    #define HAS_NIMBLE_2
-    #define HAS_IDF_3
-    #define HAS_C5_SD
-    #define HAS_DIRECT_UPLOAD
+    //#define HAS_TEMP_SENSOR
+    //#define HAS_GPS
+    //#define HAS_NIMBLE_2
+    //#define HAS_IDF_3
+    //#define HAS_C5_SD
+    //#define HAS_DIRECT_UPLOAD
   #endif
 
   #ifdef MARAUDER_CYD_MICRO
@@ -1203,6 +1203,7 @@
       #define CHAN_PER_PAGE 7
 
       #define SCREEN_CHAR_WIDTH 40
+      #define TFT_DIY
       #define HAS_ILI9341
     
       #define BANNER_TEXT_SIZE 2
@@ -1227,7 +1228,7 @@
 
       #define MAX_SCREEN_BUFFER 21
 
-      #define SCREEN_ORIENTATION 0
+      #define SCREEN_ORIENTATION 2
     
       #define CHAR_WIDTH 12
       #define SCREEN_WIDTH TFT_WIDTH
